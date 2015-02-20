@@ -1,12 +1,13 @@
 {
-  "name": "ember-cli-moment-shim",
+  "name": "ember-cli-strophe-shim",
   "main": [
-    "moment-shim.js"
+    "strophe-shim.js"
   ],
-  "version": "0.0.3",
-  "homepage": "https://github.com/jasonmit/ember-cli-moment-shim",
+  "version": "0.0.4",
+  "homepage": "https://github.com/nightexcessive/ember-cli-strophe-shim",
   "authors": [
-    "Jason Mitchell <jason.mitchell.w@gmail.com>"
+    "Jason Mitchell <jason.mitchell.w@gmail.com>",
+    "Michael Johnson <nightexcessive@gmail.com>"
   ],
   "license": "MIT",
   "ignore": [
@@ -16,6 +17,6 @@
     "tests"
   ],
   "dependencies": {
-    "moment": ">=2.7.0"
+    "strophejs": "^1.0.0"
   }
 }
